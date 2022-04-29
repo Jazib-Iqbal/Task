@@ -52,6 +52,43 @@
     color: black;
 }
 
+.card_section{
+    padding: 3rem 0;
+}
+
+.card_section-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_section-inner .card{
+    width: 32%;
+    /* flex: 1 0 21rem; */
+
+}
+
+.card_section-inner img{
+    width: 100%;
+}
+
+.card_section-inner figcaption{
+    padding: .5rem;
+    background-color: #eaeaea;
+    
+}
+
+/* .card_body{
+    flex: 1;
+} */
+
+
+.card_section-inner h2{
+    padding-bottom: .5rem;
+    
+}
+
+
+
 
 @media(max-width: 676px) {
     .parent_inner-main {
